@@ -36,7 +36,7 @@ async function updateMapWithRandomCountry() {
 
         const instructionsElement = document.getElementById('instruction');
         if (instructionsElement) {
-            instructionsElement.innerHTML = `Find ${countryName} on the map`;
+            instructionsElement.innerHTML = `Find ${countryName} capital on the map`;
         } else {
             console.warn("Instructions element not found");
         }
